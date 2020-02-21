@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(fon.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 88vh;
+    overflow: auto;
+}
+
+#conteiner {
+    justify-content: center;
+    width: 540px;
+    /* height: 579px; */
+    margin: 90px auto 0 auto;
+}
+
+.avatar img {
+    text-align: center;
+    width: 180px;
+    height: 175px;
+    margin: 0px 0px 60px 178px;
+} 
+
+input[type="text"], input[type="password"] {
+    width: 540px;
+    height: 65px;
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    margin-bottom: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-left: 66px;
+    cursor: pointer;
+}
+
+input[type="password"] {
+    font-size: 24px;
+}
+::-webkit-input-placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.user, .pass {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 20px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+label {
+    padding-left: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+label::before {
+    content: '';
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background: rgba(0, 0, 0, 0.22);
+    vertical-align: middle;
+    margin-left: -40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked + label::before {
+    content: '';
+    background-image: url(chek.png);
+    background-size: 100%;
+}
+
+a {
+    margin-top: -21px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    float: right
+    
+}
+a:hover {
+    text-decoration: underline;
+}
+
+div button {
+    width: 285px;
+    height: 65px;
+    background: rgba(0, 0, 0, 0.22);
+    border: none;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 61px;
+    margin-left: 128px;
+    cursor: pointer;
+}
